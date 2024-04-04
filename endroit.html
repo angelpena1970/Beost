@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>L'endroit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Space+Mono&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/skewed-header.css">
+    <link rel="stylesheet" href="styles/square-grid.css">
+    <link rel="stylesheet" href="styles/triple-square-grid.css">
+    <link rel="stylesheet" href="styles/page-container.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+
+</head>
+<body>
+    <div class="skewed-header">
+        <div class="header-bg" style="background-image: url('images/beost/planes\ portada\ verde\ 2020-07-22\ 15.12.01.jpg');"></div>
+
+        <div class="skewed-header-wrapper">
+            <div class="skewed-header-content">
+                <div class="heading-wrapper">
+                    <h1>L'endroit
+                        <a target="_blank" class="video-btn" href="https://www.youtube.com/watch?v=BBuetvWv4VM">
+                            <i class="fas fa-video fa-xs"></i>
+                        </a>
+                    </h1>
+                </div>
+                <div class="links-wrapper">
+                    <div class="nav-link">
+                    <a href="index.html">Contacter</a>
+                    </div>
+                
+                    <div class="nav-link">
+                    <a href="specifications.html">Spécifications</a>
+                    </div>
+                    
+                    <div class="nav-link">
+                    <a href="espaces.html">Espaces</a>
+                    </div>
+                    
+                    <!-- <div class="nav-link">
+                    <a href="endroit.html">L'endroit</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="triple-squares-wrapper">
+        <div class="triple-squares">
+            <div class="triple-square">
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 01 panorama.jpg" alt="Featured chef" id="planes01">
+                </div>
+
+                <div class="triple-square-text-wrapper">
+                    <p>La Vallée d’Ossau est une communauté de localités pyrénéennes du Béarn ...</p>
+                </div>
+                <div class="triple-square-text-wrapper">
+                    <p>et le petit village de Beost est un coin où l'on peut profiter de la nature.</p>
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 02 pueblo.JPG" alt="Featured chef" id="planes02">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="triple-squares-wrapper">
+        <div class="triple-squares">
+            <div class="triple-square">
+                <div class="triple-square-text-wrapper">
+                    <p>Visitez les sommets depuis le train d'Artouste ou en volant sur ses tyroliennes de la forêt suspendue.</p>
+                </div>
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 03 tren artouste.JPG" alt="Featured chef" id="planes03">
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 04 midi d ossau 2.JPG" alt="Featured chef" id="planes04">
+                </div>
+                <div class="triple-square-text-wrapper">
+                    <p>Faites de la randonnée en montagne en plein cœur du Parc National des Pyrénées ...</p>
+                    <p>... ou osez escalader le Midi d’Ossau, emblème de la vallée.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="triple-squares-wrapper">
+        <div class="triple-squares">
+            <div class="triple-square">
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 05 baño cascada Foto 19-7-21 16 49 13.jpg" alt="Featured chef" id="planes05">
+                </div>
+
+                <div class="triple-square-text-wrapper">
+                    <p>Quelle que soit la randonnée effectuée, l'été est le moment idéal pour profiter d'une douche à la cascade de Seris ...</p>
+                </div>
+                <div class="triple-square-text-wrapper">
+                    <p>... bien que vous préfériez peut-être une baignade dans le lac d'Ayous.</p>
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 06 midi d ossau lac d ayous.jpg" alt="Featured chef" id="planes06">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="triple-squares-wrapper">
+        <div class="triple-squares">
+            <div class="triple-square">
+                <div class="triple-square-text-wrapper">
+                    <p>Si vous trouvez que l'eau est froide, vous pouvez toujours naviguer tranquillement sur le lac de Bioux Artigues.</p>
+                </div>
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 07 lago remar lento.jpg" alt="Featured chef" id="planes07">
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 08 piragua 01 remar rapido.JPG" alt="Featured chef" id="planes08">
+                </div>
+                <div class="triple-square-text-wrapper">
+                    <p>Et si vous n'aimez pas ramer et préférez être emporté par le courant, vous pouvez prendre le canoë et vous laisser aller.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="triple-squares-wrapper">
+        <div class="triple-squares">
+            <div class="triple-square">
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 09 piragua 03.JPG" alt="Featured chef" id="planes09">
+                </div>
+
+                <div class="triple-square-text-wrapper">
+                    <p>Bien qu'il y ait des zones où se déroulent des épreuves de Red Bull, vous pouvez aussi tenter le plus difficile.</p>
+                </div>
+                <div class="triple-square-text-wrapper">
+                    <p>Et si vous avez besoin de plus d'exercice, grimpez les sommets mythiques du Tour de France à votre portée (Marie Blanque, Portalet, Aubisque, Spandelles, Luz Ardiden, Tourmalet, Hautacam, ...).</p>
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 10 ciclismo Foto 19-7-21 21 26 39 (1).jpg" alt="Featured chef" id="planes10">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="triple-squares-wrapper">
+        <div class="triple-squares">
+            <div class="triple-square">
+                <div class="triple-square-text-wrapper">
+                    <p>Et si nous sommes en hiver, échangez le vélo contre les skis ...</p>
+                </div>
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 11 ski gourette.jpg" alt="Featured chef" id="planes11">
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 12 ski Formigal_pistemap.jpg" alt="Featured chef" id="planes12">
+                </div>
+                <div class="triple-square-text-wrapper">
+                    <p>... et profitez de 3 stations (Artouste, Gourette et Formigal).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="triple-squares-wrapper">
+        <div class="triple-squares">
+            <div class="triple-square">
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 13 sauna 10.JPG" alt="Featured chef" id="planes13">
+                </div>
+
+                <div class="triple-square-text-wrapper">
+                    <p>Vous méritez une pause avant d'aller dîner et de profiter de la gastronomie locale.</p>
+                </div>
+                <div class="triple-square-text-wrapper">
+                    <p>Offrez-vous un sauna et détendez-vous dans la piscine chauffée avec nage à contre-courant,</p>
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 14 piscina 50.JPG" alt="Featured chef" id="planes14">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="triple-squares-wrapper">
+        <div class="triple-squares">
+            <div class="triple-square">
+                <div class="triple-square-text-wrapper">
+                    <p>avant de vous asseoir avec un livre près de la cheminée,</p>
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 15 atico 03 bis.jpg" alt="Featured chef" id="planes15">
+                </div>
+
+                <div class="img-wrapper-triple">
+                    <img src="images/beost/planes 16 vistas balcon.jpg" alt="Featured chef" id="planes16">
+                </div>
+                <div class="triple-square-text-wrapper">
+                    <p>pour contempler les montagnes et planifier les aventures du lendemain.</p>                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <!-- ... (tu código anterior) ... -->
+
+    <div class="story-container">
+        <!-- Sección 1 -->
+        <div class="story-item">
+            <div class="text">
+                <p>La Vallée d’Ossau est une communauté de localités pyrénéennes du Béarn ...</p>
+            </div>
+            <div class="image">
+                <img src="images/beost/planes 01 panorama.jpg" alt="Panorámica del valle">
+            </div>
+        </div>
+
+        <!-- Sección 2 -->
+        <div class="story-item">
+            <div class="image">
+                <img src="images/beost/planes 02 pueblo.JPG" alt="Imagen del pueblo">
+            </div>
+            <div class="text">
+                <p>et le petit village de Beost est un coin où l'on peut profiter de la nature.</p>
+            </div>
+        </div>
+
+        <!-- Sección 3 -->
+        <div class="story-item">
+            <div class="text">
+                <p>Visitez les sommets depuis le train d'Artouste ou en volant sur ses tyroliennes de la forêt suspendue.</p>
+            </div>
+            <div class="image">
+                <img src="images/beost/planes 03 tren artouste.JPG" alt="Tren de Artouste">
+            </div>
+        </div>
+
+        <!-- Sección 4 -->
+        <div class="story-item">
+            <div class="image">
+                <img src="images/beost/planes 04 midi d ossau 2.JPG" alt="Midi d’Ossau">
+            </div>
+            <div class="text">
+                <p>Faites de la randonnée en montagne en plein cœur du Parc National des Pyrénées ...
+                ... ou osez escalader le Midi d’Ossau, emblème de la vallée.</p>
+            </div>
+        </div>
+
+        <!-- Sección 5 -->
+        <div class="story-item">
+            <div class="image">
+                <img src="images/beost/planes 05 baño cascada Foto 19-7-21 16 49 13.jpg" alt="Cascada">
+            </div>
+            <div class="text">
+                <p>Quelle que soit la randonnée effectuée, l'été est le moment idéal pour profiter d'une douche à la cascade de Seris ...</p>
+            </div>
+        </div>
+
+        <!-- Sección 6 -->
+        <div class="story-item">
+            <div class="text">
+                <p>... bien que vous préfériez peut-être une baignade dans le lac d'Ayous.</p>
+            </div>
+            <div class="image">
+                <img src="images/beost/planes 06 midi d ossau lac d ayous.jpg" alt="Lac d'Ayous">
+            </div>
+        </div>
+
+        <!-- Sección 7 -->
+        <div class="story-item">
+            <div class="image">
+                <img src="images/beost/planes 07 lago remar lento.jpg" alt="Lago tranquilo">
+            </div>
+            <div class="text">
+                <p>Si vous trouvez que l'eau est froide, vous pouvez toujours naviguer tranquillement sur le lac de Bioux Artigues.</p>
+            </div>
+        </div>
+
+        <!-- Sección 8 -->
+        <div class="story-item">
+            <div class="text">
+                <p>Et si vous n'aimez pas ramer et préférez être emporté par le courant, vous pouvez prendre le canoë et vous laisser aller.</p>
+            </div>
+            <div class="image">
+                <img src="images/beost/planes 08 piragua 01 remar rapido.JPG" alt="Rápidos en canoa">
+            </div>
+        </div>
+
+        <!-- Sección 9 -->
+        <div class="story-item">
+            <div class="image">
+                <img src="images/beost/planes 09 piragua 03.JPG" alt="Piragua">
+            </div>
+            <div class="text">
+                <p>Bien qu'il y ait des zones où se déroulent des épreuves de Red Bull, vous pouvez aussi tenter le plus difficile.</p>
+            </div>
+        </div>
+
+        <!-- Sección 10 -->
+        <div class="story-item">
+            <div class="text">
+                <p>Et si vous avez besoin de plus d'exercice, grimpez les sommets mythiques du Tour de France à votre portée (Marie Blanque, Portalet, Aubisque, Spandelles, Luz Ardiden, Tourmalet, Hautacam, ...).</p>
+            </div>
+            <div class="image">
+                <img src="images/beost/planes 10 ciclismo Foto 19-7-21 21 26 39 (1).jpg" alt="Ciclismo">
+            </div>
+        </div>
+
+        <!-- Sección 11 -->
+        <div class="story-item">
+            <div class="image">
+                <img src="images/beost/planes 11 ski gourette.jpg" alt="Esquí en Gourette">
+            </div>
+            <div class="text">
+                <p>Et si nous sommes en hiver, échangez le vélo contre les skis ...</p>
+            </div>
+        </div>
+
+        <!-- Sección 12 -->
+        <div class="story-item">
+            <div class="text">
+                <p>... et profitez de 3 stations (Artouste, Gourette et Formigal).</p>
+            </div>
+            <div class="image">
+                <img src="images/beost/planes 12 ski Formigal_pistemap.jpg" alt="Mapa de pistas de Formigal">
+            </div>
+        </div>
+
+        <!-- Sección 13 -->
+        <div class="story-item">
+            <div class="image">
+                <img src="images/beost/planes 13 sauna 10.JPG" alt="Sauna">
+            </div>
+            <div class="text">
+                <p>Vous méritez une pause avant d'aller dîner et de profiter de la gastronomie locale.</p>
+            </div>
+        </div>
+
+        <!-- Sección 14 -->
+        <div class="story-item">
+            <div class="text">
+                <p>Offrez-vous un sauna et détendez-vous dans la piscine chauffée avec nage à contre-courant,</p>
+            </div>
+            <div class="image">
+                <img src="images/beost/planes 14 piscina 50.JPG" alt="Piscina">
+            </div>
+        </div>
+
+        <!-- Sección 15 -->
+        <div class="story-item">
+            <div class="image">
+                <img src="images/beost/planes 15 atico 03 bis.jpg" alt="Ático">
+            </div>
+            <div class="text">
+                <p>avant de vous asseoir avec un livre près de la cheminée,</p>
+            </div>
+        </div>
+
+        <!-- Sección 16 -->
+        <div class="story-item">
+            <div class="text">
+                <p>pour contempler les montagnes et planifier les aventures du lendemain.</p>
+            </div>
+            <div class="image">
+                <img src="images/beost/planes 16 vistas balcon.jpg" alt="Vistas desde el balcón">
+            </div>
+        </div>
+    </div>
+
+    <!-- ... (tu código anterior de footer) ... -->
+
+    <div class="spacer60"></div>
+
+    <div class="spacer60"></div>
+
+    <div class="footer">
+        <div class="logo-footer">
+            <img src="images/beost/motscles.jpg" alt="Logo">
+        </div>
+
+        <div class="footer-phone-hours">
+            <span class="phone">
+                <a href="mailto:beost2023@gmail.com" class="email-link">beost2023@gmail.com</a>
+            </span>
+
+            <span class="hours">
+                48 h / français, español, english                
+            </span>
+         </div>
+
+         <div class="links-wrapper">
+            <div class="nav-link">
+            <a href="index.html">Contacter</a>
+            </div>
+        
+            <div class="nav-link">
+            <a href="specifications.html">Spécifications</a>
+            </div>
+            
+            <div class="nav-link">
+            <a href="espaces.html">Espaces</a>
+            </div>
+            
+            <!-- <div class="nav-link">
+            <a href="endroit.html">L'endroit</a>
+            </div> -->
+        </div>
+
+        <div class="social-media-icons-wrapper">
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+
+        <div class="copyright-wrapper">
+            &copy; 2023 ECODE &#124; All rights reserved
+        </div>
+    </div>
+</body>
+</html>

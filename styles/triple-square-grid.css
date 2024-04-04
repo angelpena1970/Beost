@@ -1,0 +1,243 @@
+/*
+.triple-squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.triple-squares-wrapper > .triple-squares {
+    width: 1000px;
+}
+
+.triple-squares-wrapper > .triple-squares > .triple-square {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -4px;
+}
+*/
+
+/* ESTO YA ESTABA COMO COMENTARIO:*/
+/* .triple-square > .img-wrapper-triple img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+} */
+
+/*
+.triple-square > .triple-square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.triple-square > .triple-square-text-wrapper h1 {
+    color: #cea135;
+}
+
+.triple-square > .img-wrapper-triple #planes01 {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes02 {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes03 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes04 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes05 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes06 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes07 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes08 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes09 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes10 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes11 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes12 {
+    width: 400px;
+    height: 180px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes13 {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes14 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes15 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+
+.triple-square > .img-wrapper-triple #planes16 {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border: 1px solid #cea135;
+    margin: 23px 40px 20px 0px;
+}
+*/
+
+/* ... (tu código anterior de CSS) ... */
+
+.story-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10%; /* Margen izquierdo del 10% del ancho de la ventana */
+    margin-right: 10%; /* Margen derecho del 10% del ancho de la ventana */
+}
+
+.story-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 1px 0; /* Espacio entre cada contenedor de historia */
+}
+
+.story-item .text, .story-item .image {
+    flex: 1;
+    padding: 10px;
+    align-self: center; /* Alinear las imágenes y el texto hacia el centro */
+}
+
+.story-item .image img {
+    max-width: 75%; /* Ajusta este valor según lo grande que quieras las imágenes */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-item .text {
+    font-size: 20px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+}
+
+/* Estilo para alternar la posición de la imagen y el texto */
+.story-item:nth-child(odd) .image {
+    order: 1; /* Coloca la imagen antes del texto para las secciones impares */
+}
+
+.story-item:nth-child(odd) .text {
+    order: 2; /* Coloca el texto después de la imagen para las secciones impares */
+    text-align: left; /* Alinea el texto a la izquierda para las secciones impares */
+}
+
+.story-item:nth-child(even) .image {
+    order: 2; /* Coloca la imagen después del texto para las secciones pares */
+}
+
+.story-item:nth-child(even) .text {
+    order: 1; /* Coloca el texto antes de la imagen para las secciones pares */
+    text-align: right; /* Alinea el texto a la derecha para las secciones pares */
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .story-item .image img {
+        width: 100%; /* Reduce el tamaño de las imágenes en pantallas pequeñas */
+    }
+
+    .story-item .text {
+        font-size: 15px;
+    }
+
+    .story-container {
+        margin: 0 20px; /* Reduce el margen en pantallas pequeñas */
+    }
+}
